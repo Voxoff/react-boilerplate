@@ -1,3 +1,10 @@
+cd ~/code/Voxoff/javascript/react
+git clone git@github.com:lewagon/react-boilerplate.git XXXXXXX
+cd $_ ; yarn install
+rm -rf .git
+git init ; git add . ; git commit -m "A journey of a thousand miles begins with a single step"
+yarn start
+
 # react-boilerplate
 
 Simple react starter with the following config:
